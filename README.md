@@ -1,7 +1,7 @@
 alarmclock
 ==========
 
-Talking alarm clock for raspberry pi. Uses light sensor with GPIO
+Talking alarm clock for Raspberry Pi. Uses light sensor with GPIO
 
 OVERVIEW
 --------
@@ -20,3 +20,19 @@ PREREQS
 - fortune: the words (apt-get install fortune)
 - GPIO python libraries
 
+
+USAGE
+-------
+
+sudo python bin/app.py <HH:MM>
+
+- HH : hour (0-29)
+- MM : minute (00-59)
+
+example:
+$sudo python alarmclock/bin/app.py 
+
+
+Note: sudo is needed in order to access the GPIO inputs (light sensor)
+
+light sensor is set to GPIO pin 25
