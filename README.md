@@ -35,4 +35,4 @@ $sudo python alarmclock/bin/app.py
 
 Note: sudo is needed in order to access the GPIO inputs (light sensor)
 
-light sensor is set to GPIO pin 25
+light sensor is set to GPIO pin 25 (can modify in lightsensor.py)
